@@ -10,9 +10,10 @@ body {
 .left {
   color: white;
   background-image: url("bmwsmall.jpg");
-  background-size: 100%;
-  padding-top: 52%;
-  padding-left: 600px;
+  background-size: cover;
+  height: 1000px;
+  width: min(600px);
+  overflow: hidden;
 }
 
 .right {
@@ -36,4 +37,23 @@ body {
 
 .row_third {
   display: flex;
+}
+
+.brand {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+}
+
+.image {
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
