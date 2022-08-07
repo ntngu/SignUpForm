@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  color: white;
+  background-image: url("bmwsmall.jpg");
+  background-size: 100%;
+  padding-top: 52%;
+  padding-left: 600px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 2;
+}
+
+.row_first {
+  display: flex;
+}
+
+.row_second {
+  display: flex;
+}
+
+.row_third {
+  display: flex;
+}
