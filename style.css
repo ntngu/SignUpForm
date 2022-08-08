@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  height: 100%;
+  background-color: #f9fafb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .container {
@@ -8,23 +9,24 @@ body {
 }
 
 .left {
+  white-space: nowrap;
   color: white;
   background-image: url("bmwsmall.jpg");
-  background-size: cover;
-  height: 1000px;
-  width: min(600px);
-  overflow: hidden;
+  background-size: contain;
+  height: 100vh;
+  min-width: 56.3vh; 
+  max-width: 56.3vh;
 }
 
 .right {
   display: flex;
   flex-direction: column;
+  margin: 50px;
 }
 
 .box {
   display: flex;
   flex-direction: column;
-  flex-wrap: 2;
 }
 
 .row_first {
@@ -48,12 +50,25 @@ body {
 }
 
 .text {
+  display: flex;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .image {
-  height: 200px;
+  height: 150px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.credits {
+  display: flex;
+  justify-content: center;
+  padding-top: 57vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+ .tagline1 {
+  font-weight: bold;
+ }
