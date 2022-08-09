@@ -122,3 +122,24 @@ body {
 .already {
   margin-left: 50px;
 }
+
+input {
+  border: #E5E7EB 1px solid;
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #596D48;
+  color: white;
+  transition: 250ms linear;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 0px 3px 5px #969696;
+}
+
+button:hover {
+  background-color: gray;
+}
